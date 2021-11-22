@@ -10,7 +10,7 @@ body{
 
 .zurras{
     background-color: rgb(131, 129, 129);    
-    background-image: url(./Vendor/CSS/plan-anual-seguridad-salud-trabajo.jpg);
+    background-image: url(/Vendor/CSS/img/plan-anual-seguridad-salud-trabajo.jpg);
 }
 
 .contenedor{
@@ -101,13 +101,13 @@ body{
 
 .contenedor .widget-1{
     grid-area: widget-1;
-    background-image: url(/Vendor/CSS/01-PSST-Imagen.jpg);
+    background-image: url(/Vendor/CSS/img/01-PSST-Imagen.jpg);
     background-size: cover;
 }
 
 .contenedor .widget-2{
     grid-area: widget-2;
-    background-image: url(/Vendor/CSS/download.jfif);
+    background-image: url(/Vendor/CSS/img/download.jfif);
     background-size: cover;
 }
 
