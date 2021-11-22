@@ -10,7 +10,7 @@ body{
 
 .zurras{
     background-color: rgb(131, 129, 129);
-    background-image: url(/Vendor/CSS/cloud-computing-coding-security.jpg);
+    background-image: url(./Vendor/CSS/img/cloud-computing-coding-security.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ body{
 
 .contenedor .widget-1{
     grid-area: widget-1;
-    background-image: url(/Vendor/CSS/companeros-equipo-seguridad-que-trabajan-planos_23-2148908431.jpg);
+    background-image: url(./Vendor/CSS/img/companeros-equipo-seguridad-que-trabajan-planos_23-2148908431.jpg);
     background-size: cover;
     transform: scale(1);
     transition: transform 0.5s;
@@ -109,7 +109,7 @@ body{
 
 .contenedor .widget-2{
     grid-area: widget-2;
-    background-image: url(/Vendor/CSS/SG-SST.png);
+    background-image: url(./Vendor/CSS/img/SG-SST.png);
     background-size: cover;
     transform: scale(1);
     transition: transform 0.5s;

@@ -11,7 +11,7 @@ body{
 
 .zurras{
     background-color: rgba(131, 129, 129, 0);
-    background-image: url(/Vendor/CSS/plansys.jpg);
+    background-image: url(./Vendor/CSS/img/plansys.jpg);
 }
 
 .contenedor{
