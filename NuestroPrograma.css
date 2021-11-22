@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(70, 70, 70);
+}
+
+.container{
+    width: 90%;
+    max-width: 2000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header header header header header"
+                        "contenido1 contenido2 contenido3 contenido4 contenido5"
+                        "footer footer footer footer footer";
+}
+
+.container > div,
+.container .header,
+.container .footer,
+.container .contenido1,
+.container .contenido2,
+.container .contenido3,
+.container .contenido4,
+.container .contenido5{
+    background-color: rgb(131, 129, 129);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.container .header{
+    background: #12203e;
+    color: #fff;
+    grid-area: header;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container .contenido1{
+    grid-column: span 1;
+    grid-area: contenido1;
+}
+
+.container .contenido2{
+    grid-column: 2/2;
+    grid-area: contenido2;
+}
+
+.container .contenido3{
+    grid-column: 3/3;
+    grid-area: contenido3;
+}
+
+.container .contenido4{
+    grid-column: 4/4;
+    grid-area: contenido4;
+}
+
+.container .contenido5{
+    grid-column: 5/5;
+    grid-area: contenido5;
+}
+
+.contenido1 img{
+    width: 100%;
+    height: 80vh;
+    opacity: .5;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.contenido2 img{
+    width: 100%;
+    height: 80vh;
+    opacity: .5;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.contenido3 img{
+    width: 100%;
+    height: 80vh;
+    opacity: .5;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.contenido4 img{
+    width: 100%;
+    height: 80vh;
+    opacity: .5;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.contenido5 img{
+    width: 100%;
+    height: 80vh;
+    opacity: .5;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.contenido1 img:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.contenido2 img:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.contenido3 img:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.contenido4 img:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.contenido5 img:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.imagen1{
+    background-image: url(/Vendor/CSS/01-PSST-Imagen.jpg);
+    width: 100%;
+    height: 80vh;
+    opacity: 0.3;
+    background-size: contain;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+    margin-top: 0px;
+}
+
+.imagen1:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.imagen2{
+    background-image: url(/Vendor/CSS/reglas-de-seguridad-Occupational-Health.png);
+    width: 100%;
+    height: 80vh;
+    opacity: .3;
+    background-size: contain;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+    margin-top: 0px;
+}
+
+.imagen2:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.imagen3{
+    background-image: url(/Vendor/CSS/seguridad-e-higiene.jpg);
+    width: 100%;
+    height: 80vh;
+    opacity: .3;
+    background-size: contain;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+    margin-top: 0px;
+}
+
+.imagen3:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.imagen4{
+    background-image: url(/Vendor/CSS/seguridad-industrial-1-1300x675.jpg);
+    width: 100%;
+    height: 80vh;
+    opacity: .3;
+    background-size: contain;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+    margin-top: 0px;
+}
+
+.imagen4:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.imagen5{
+    background-image: url(/Vendor/CSS/ttrabajo-1000x666.jpg);
+    width: 100%;
+    height: 80vh;
+    opacity: .3;
+    background-size: contain;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+    margin-top: 0px;
+}
+
+.imagen5:hover{
+    transform: scale(1.11);
+    opacity: 1;
+}
+
+.imagen1 p{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: chocolate;
+}
+
+.imagen2 p{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: chocolate;
+}
+
+.imagen3 p{
+    font-size: 29px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: chocolate;
+}
+
+.imagen4 p{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: chocolate;
+}
+
+.imagen5 p{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: chocolate;
+}
+
+.container .footer{
+    background: #12203e;
+    color: #fff;
+    grid-area: footer;
+}
+
+.container .footer li{
+    display: inline;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.lista-footer li a:link, .lista-footer li a:visited{
+    transition: border-bottom 0.5s;
+}
+
+.lista-footer li:hover, .lista-footer li a:active{
+    border-bottom: 5px solid chocolate ;
+}
+
+.container .footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .footer a li:hover{
+    transform: scale(2);
+}
+
+@media screen {
+    body{
+        grid-template-areas: "header header header header header"
+        "contenido1 contenido2 contenido3 contenido4 contenido5"
+        "footer footer footer footer footer";
+    }
+    .lista-footer li{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+a{
+    text-decoration: none;
+}

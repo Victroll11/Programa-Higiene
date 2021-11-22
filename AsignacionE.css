@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zurras{
+background-image: url(/Vendor/CSS/estrategias-ventas.jpg);
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header"
+                        "conteItemsCarrusel"
+                        "contepuntos"
+                        "footer";
+}
+
+#conteItemsCarrusel{
+    height: 80vh;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+}
+
+.flechasCarrusel{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#contepuntos{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+#contepuntos a{
+    font-size: 25px;
+}
+
+.lista-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor .footer{
+    background: #12203eec;
+    color: #fff;
+    grid-area: footer;
+    height: 75px;
+}
+
+.contenedor .footer li{
+    display: inline;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.lista-footer li a:link, .lista-footer li a:visited{
+    transition: border-bottom 0.5s;
+}
+
+.lista-footer li:hover, .lista-footer li a:active{
+    border-bottom: 5px solid chocolate ;
+}
+
+.contenedor .footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor .footer a li:hover{
+    transform: scale(2);
+}
+
+.contenedor .header{
+    background: #12203eee;
+    color: white;
+    grid-area: header;
+    text-align: center;
+    font-size: 26px;
+}
+
+.tarjetaCarrusel h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.tarjetaCarrusel{
+    text-align: justify;
+    font-size: 30px;
+    line-height: 65px;
+    background: #faa53def;
+    padding: 60px;
+}
+
+#contepuntos a{
+    text-transform: font-size(16);
+    transition: transform 0.5s;
+}
+
+#contepuntos a:hover{
+    background: rgb(78, 78, 78);
+}
+
+.flechasCarrusel:active{
+    transition: 3s;
+}
