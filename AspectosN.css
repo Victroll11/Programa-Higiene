@@ -117,13 +117,13 @@ body{
 
 .contenedor .widget-1{
     grid-area: widget-1;
-    background-image: url(/Vendor/CSS/skks.jfif);
+    background-image: url(./Vendor/CSS/img/skks.jfif);
     background-size: cover;
 }
 
 .contenedor .widget-2{
     grid-area: widget-2;
-    background-image: url(/Vendor/CSS/tupu.jfif);
+    background-image: url(./Vendor/CSS/img/tupu.jfif);
     background-size: cover;
 }
 

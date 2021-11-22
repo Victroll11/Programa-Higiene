@@ -116,13 +116,13 @@ font-size: 15px;
 
 .contenedor .widget-1{
     grid-area: widget-1;
-    background-image: url(/Vendor/CSS/accidente-laboral.jpg);
+    background-image: url(./Vendor/CSS/img/accidente-laboral.jpg);
     background-size: cover;
 }
 
 .contenedor .widget-2{
     grid-area: widget-2;
-    background-image: url(/Vendor/CSS/como_evitar_accidentes_laborales.jpg);
+    background-image: url(./Vendor/CSS/img/como_evitar_accidentes_laborales.jpg);
     background-size: cover;
 }
 
